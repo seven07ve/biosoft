@@ -14,7 +14,9 @@
     <!--Normalize-->
     {{ HTML::style('assets/normalize/normalize.css') }}
     <!--Estilos pagina nueva-->
-   {{ HTML::style('assets/stylesheets/styles-general.css')}}
+    {{ HTML::style('assets/stylesheets/styles-general.css')}}
+    {{HTML::style('assets/stylesheets/styles-menu.css')}} 
+    {{HTML::style('assets/stylesheets/styles-footer.css')}} 
         <!--Jquery-->
     {{ HTML::script('http://code.jquery.com/jquery-2.2.0.min.js') }}
     <!--Bootstrap js-->
@@ -98,7 +100,7 @@
 <body>
 	<header>
 		<div class="wrap-menu">
-			<?php echo View::make('parciales.menu') ?>
+			<?php echo View::make('parciales.menu-nuevo') ?>
 		</div>
 		<?php echo View::make('parciales.camera-slider') ?>
 	</header>
