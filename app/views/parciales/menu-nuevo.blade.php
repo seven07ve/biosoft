@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default " role="navigation">
   <div class="container-fluid">
     <div class= "top-cabecera">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
@@ -12,8 +12,7 @@
                   $alt="Biosof c.a", $attributes = array('width' => 212, 'height' => 80,
                     'class' => 'img-responsive')) }}
       </div>
-          
-      <div class="telefonos">
+    <div class="telefonos">
         <div class="telelocal">
           <p>Telf: (+58) 274-7892669</p>
         </div>
@@ -21,35 +20,33 @@
           <p>atencion@biosoftca.com</p>
         </div>
       </div>
-      <div class= "redes">
-        <!--correo--> 
-        <div class="correo">
-          <a href="contacto"> 
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-          </a>
-        </div>
-        <!--instagram-->
-        <div class="instagram">
-          <a href="https://www.instagram.com/biosoftca/" target="_blank"> 
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-        </div>
-
-        <!--twitter-->
-        <div class="twitter">      
-          <a href="https://twitter.com/biosoftca" target="_blank">
-            <i class="fa fa-twitter-square" aria-hidden="true"></i> 
-          </a>
-        </div>
-
-        <div class="facebook">
-         <a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank">  
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-          </a>
-        </div>
-     
+          <div class= "redes">
+      <!--correo--> 
+      <div class="correo">
+        <a href="contacto"> 
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
       </div>
-     
+      <!--instagram-->
+      <div class="instagram">
+        <a href="https://www.instagram.com/biosoftca/" target="_blank"> 
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!--twitter-->
+      <div class="twitter">      
+        <a href="https://twitter.com/biosoftca" target="_blank">
+          <i class="fa fa-twitter-square" aria-hidden="true"></i> 
+        </a>
+      </div>
+
+      <div class="facebook">
+        <a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank">  
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
     </div> 
 
   </div> <!-- /.container-fluid -->
@@ -59,11 +56,9 @@
       <li class="{{Request::path() == '/' ? 'active' : '';}}">{{ HTML::link('/', 'INICIO'); }}</li>
       <li class="{{Request::path() == 'sobrebio' ? 'active' : '';}}">{{ HTML::link('sobrebio', 'SOBRE BIOSOFT'); }}</li>
       <li class="{{Request::path() == 'equipo' ? 'active' : '';}}">{{ HTML::link('equipo', 'EQUIPO'); }}</li>
-
       <li class="{{Request::path() == 'metodos' ? 'active' : '';}}">{{ HTML::link('metodos', 'MÉTODOS'); }}</li>
-      <li class="{{Request::path() == 'consultoría' ? 'active' : '';}}">{{ HTML::link('consultoría', 'CONSULTORÍA'); }}</li>
-      <li class="{{Request::path() == 'capacitación' ? 'active' : '';}}">{{ HTML::link('capacitación', 'CAPACITACIÓN'); }}</li>
-      <li class="{{Request::path() == 'desarrollo' ? 'active' : '';}}">{{ HTML::link('desarrollo', 'DESARROLLO'); }}</li>
+      <li class="{{Request::path() == 'consultoria' ? 'active' : '';}}">{{ HTML::link('consultoria', 'CONSULTORÍA'); }}</li>
+      <li class="{{Request::path() == 'capacitacion' ? 'active' : '';}}">{{ HTML::link('capacitacion', 'CAPACITACIÓN'); }}</li>
       <li class="{{Request::path() == 'portafolio' ? 'active' : '';}}">{{ HTML::link('portafolio', 'PORTAFOLIO'); }}</li>
       <li class="{{Request::path() == 'contacto' ? 'active' : '';}}">{{ HTML::link('contacto', 'CONTACTO'); }}</li>
       <div class="effect"></div>

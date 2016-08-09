@@ -4,7 +4,9 @@
 		        <a href="../Cursos-In-Company">
                     <div class="atras">{{ HTML::image('assets/images/diplomados/flecha-blanca.png', $alt="Atrás") }}</div>
                 </a>
-			<h2>Solicitud de Informaci&oacute;n</h2>
+				<br><br>
+			<h2 class="titulo-seccion">Solicitud de Informaci&oacute;n</h2>
+			<br><br>
 		</div>
 	</div>
 	<div class="row form">

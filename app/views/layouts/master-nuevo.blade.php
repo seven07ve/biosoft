@@ -14,6 +14,7 @@
     <!--Normalize-->
     {{ HTML::style('assets/normalize/normalize.css') }}
     <!--Estilos pagina nueva-->
+    {{ HTML::style('assets/stylesheets/font-awesome/css/font-awesome.min.css') }}
     {{ HTML::style('assets/stylesheets/styles-general.css')}}
     {{HTML::style('assets/stylesheets/styles-menu.css')}} 
     {{HTML::style('assets/stylesheets/styles-footer.css')}} 
@@ -40,43 +41,6 @@
     {{ HTML::script('assets/camera/scripts/jquery.easing.1.3.js') }}
     {{ HTML::script('assets/camera/scripts/camera.min.js') }}
    
-    <script src="assets/collageplus/jquery.collagePlus.js"></script>
-    <script src="assets/collageplus/extras/jquery.removeWhitespace.js"></script>
-    <script src="assets/collageplus/extras/jquery.collageCaption.js"></script>
-  
-    <script type="text/javascript">
-
-    // All images need to be loaded for this plugin to work so
-    // we end up waiting for the whole window to load in this example
-    $(window).load(function () {
-        $(document).ready(function(){
-            collage();
-            $('.Collage').collageCaption();
-        });
-    });
-
-
-    // Here we apply the actual CollagePlus plugin
-    function collage() {
-        $('.Collage').removeWhitespace().collagePlus(
-            {
-                'fadeSpeed'     : 2000,
-                'targetHeight'  : 200
-            }
-        );
-    };
-
-    // This is just for the case that the browser window is resized
-    var resizeTimer = null;
-    $(window).bind('resize', function() {
-        // hide all the images until we resize them
-        $('.Collage .Image_Wrapper').css("opacity", 0);
-        // set a timer to re-apply the plugin
-        if (resizeTimer) clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(collage, 200);
-    });
-
-    </script>
 <script>
 		jQuery(function(){		
 			jQuery('#camera_wrap_1').camera({
@@ -104,12 +68,12 @@
 		</div>
 		<?php echo View::make('parciales.camera-slider') ?>
 	</header>
-	<div class="wrap-container">
+	<div class="wrap-container home">
 			@yield('content')
 	</div>
 	<footer>
 		<div class="container">
-			<?php echo View::make('parciales.footer') ?>
+			<?php echo View::make('parciales.footer-nuevo') ?>
 		</div>
 	</footer>
 </body>

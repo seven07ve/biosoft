@@ -1,3 +1,5 @@
 // Coloque su configuración en este archivo para sobrescribir la configuración predeterminada y de usuario.
 {
+    // La ruta de acceso del shell que el terminal usa en Windows.
+    "terminal.integrated.shell.windows": "C:\\Program Files\\ConEmu\\ConEmu64.exe",
 }

@@ -11,19 +11,19 @@
 		<div class="container">
 			<div class="row titulo">
 				<div class="col-sm-12 col-md-12">
-					<h2>Cursos y Talleres <i>In Company</i></h2>
+					<h2 class="titulo-seccion">Cursos y Talleres <i>In Company</i></h2>
 					<p>Para las empresas e instituciones interesadas en capacitar a su personal, bajo la modalidad presencial In Company, BIOSOFT ofrece  una amplia  variedad de cursos y talleres en las áreas de Ingeniería de Software y Gerencia Informática. Estos cursos se pueden adaptar  a las necesidades y requisitos particulares de su empresa y se dictan de acuerdo a una programación conveniente para ambas partes.</p>
 				</div>
 			</div>
 			<div class="row lista">
 				<div class="hidden-xs col-sm-1 col-md-1">
 					{{ HTML::image('assets/images/capacitacion/is.fw.png', 
-						$alt="imagen 1", $attributes = array('class' => 'img-responsive')) }}
+						$alt="imagen 1", $attributes = array('class' => 'img-responsive nomb-areas')) }}
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-5 is">
 				<div class="hidden-xs iconos-cursos">
 					{{ HTML::image('assets/images/capacitacion/cursos-is.jpg', 
-						$alt="imagen 1", $attributes = array('class' => 'img-responsive')) }}
+						$alt="imagen 1", $attributes = array('class' => 'img-responsive  nomb-areas')) }}
 				</div>
 				<h2 class="visible-xs">Ingeniería del Software</h2>
 					<ul>
@@ -49,12 +49,12 @@
 				</div>
 				<div class="hidden-xs col-sm-1 col-md-1 titulo">
 					{{ HTML::image('assets/images/capacitacion/gi.fw.png', 
-						$alt="imagen 1", $attributes = array('class' => 'img-responsive')) }}
+						$alt="imagen 1", $attributes = array('class' => 'img-responsive nomb-areas')) }}
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-5 gi">
 				<div class="hidden-xs iconos-cursos">
 					{{ HTML::image('assets/images/capacitacion/cursos-gi.jpg', 
-						$alt="imagen 1", $attributes = array('class' => 'img-responsive')) }}
+						$alt="imagen 1", $attributes = array('class' => 'img-responsive nomb-areas')) }}
 				</div>
 				<h2 class="visible-xs">Gestión Informática</h2>
 					<ul>

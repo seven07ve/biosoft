@@ -7,7 +7,11 @@
 	<link href='assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 	{{ HTML::style('assets/stylesheets/bootstrapValidator.min.css')}}
-	{{ HTML::style('assets/stylesheets/styles.css')}}
+	
+	{{ HTML::style('assets/stylesheets/font-awesome/css/font-awesome.min.css') }}
+    {{ HTML::style('assets/stylesheets/styles-general.css')}}
+    {{HTML::style('assets/stylesheets/styles-menu.css')}} 
+    {{HTML::style('assets/stylesheets/styles-footer.css')}} 
 	<script src="//code.jquery.com/jquery.js"></script>
 	{{ HTML::script('assets/javascripts/bootstrap.js')}}
 	{{ HTML::script('assets/javascripts/menu.js')}}
@@ -17,28 +21,30 @@
 <body>
 	<header>
 		<div class="wrap-menu">
-			<?php echo View::make('parciales.menu') ?>
+			<?php echo View::make('parciales.menu-nuevo') ?>
 		</div>
 	</header>
 	<div class="wrap-container wrap-otra">
 	<div id="curso">
 		<div class="container" id="vaisid">
 			<div class="row titulo">
-				<div class="col-md-2">
-					
+				<div class="col-md-1">
 				</div>
-				<div class="col-md-10">
-					<h1>@yield('curso-tit')</h1>
+				<div class="col-md-11">
+					<h2  class="titulo-seccion"> Certificados</h2>
+					<h2>@yield('curso-tit')</h2>
+					<br><br>
 				</div>
 			</div>
 			<div class="row descripcion">
-				<div class="col-md-offset-2 col-md-10">
+				<div class="col-md-offset-1 col-md-11">
 					<p>@yield('descripcion')</p>
 				</div>
 			</div>
 		</div>
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-11">
+			<br>
             <a href="Diplomados-Cursos">
                 <div class="atras">{{ HTML::image('assets/images/diplomados/flecha-peq.png', $alt="Atrás") }}</div>
             </a>
@@ -51,7 +57,7 @@
 </div> -->
 	<footer>
 		<div class="container">
-			<?php echo View::make('parciales.footer') ?>
+			<?php echo View::make('parciales.footer-nuevo') ?>
 		</div>
 	</footer>
 </body>

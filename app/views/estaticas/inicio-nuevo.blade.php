@@ -73,7 +73,7 @@
 			    </div>
 			</div>
         </div>
-        	    <div class="row">
+        <div class="row">
 		    <div class="col-md-12">
 			    <h2 class="titulo-seccion">Por qué nosotros</h2>
 			    <div class="row text-center">
@@ -167,7 +167,7 @@
 			</div>
 		</div>
 	</div>
-    <div id="capacitacion">
+    <div id="">
         <div class="container">
         <div class="row info">
 				<h2 class="titulo-seccion">Algunos de nuestros<span>Trabajos</span></h2>
@@ -200,7 +200,8 @@
 			            <h3 class="titulo-naranja">
 				            CONSULTORÍA
 			            </h3>
-                            <p></p>
+                            <p>Adaptación del marco de trabajo TOGAF® 9.5 y del método ADM a los requisitos del banco. <br>
+                            Elaboración de Modelo de Gestión de Procesos de Arquitectura Empresarial del BOD.</p>
                         </div>
                     </div>
 			    </div>

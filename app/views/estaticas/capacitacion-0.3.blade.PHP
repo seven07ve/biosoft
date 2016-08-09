@@ -5,18 +5,17 @@
 @stop
 
 @section ('content')
+	{{ HTML::image('assets/images/capacitacion/cabecera.jpg',
+	$alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px",
+	'class' => 'img-responsive')) }}
 
-	<div id="capacitacion">
+
+	<div id="epraxis">
 		<div class="container" id="vaisid">
 			<div class="row">
-             <br>
-              <h2  class="titulo-seccion">Capacitación</h2>
-    			<br><br>
 			  	<div class="col-sm-5 col-md-4">
 					<div class="thumbnail">
-					<div class="cont-img">
 						{{ HTML::image('assets/images/capacitacion/logo-vaisid.jpg', '', $attributes = array('class' => 'img-responsive')) }}
-						</div>
 					<div class="caption">
 						<h4>Diplomado y cursos certificados en BPM e Ingeniería de Requisitos<br><br></h4>
 						
@@ -29,9 +28,7 @@
 				</div><!-- end col-sm-6 col-md-4 -->
 				<div class="col-sm-5 col-md-4">
 					<div class="thumbnail">
-					<div class="cont-img">
 						{{ HTML::image('assets/images/capacitacion/logo-e-praxis.jpg', '', $attributes = array('class' => 'img-responsive')) }}
-                    </div>
 					<div class="caption">
 						<h4>Cursos Gratuitos, en Línea, Masivos y Abiertos (MOOC) en Ingeniería del Software</h4>
 						
@@ -44,9 +41,7 @@
 				</div><!-- end col-sm-6 col-md-4 -->
 				<div class="col-sm-5 col-md-4">
 					<div class="thumbnail">
-					<div class="cont-img">
 						{{ HTML::image('assets/images/capacitacion/logo-incompany.jpg', '', $attributes = array('class' => 'img-responsive')) }}
-                    </div>
 					<div class="caption">
 						<h4>Cursos y Talleres <i>In Company</i><br><br><br></h4>
 						

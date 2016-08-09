@@ -45,7 +45,7 @@
 			
 		</div>
 	</div>
-	<div class="row inscribete">
+	<div class="inscribete">
 		{{ HTML::link('#', 'INSCRÍBETE YA!', array('class'=>'', 'role'=>'button'));}}
 	</div>
 @stop

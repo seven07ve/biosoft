@@ -5,8 +5,7 @@
 @stop
 
 @section ('content')
-	{{-- {{ HTML::image('assets/images/equipo/cabecera.jpg',
-    	$alt="imagen 1", $attributes = array('width' => '100%', 'height' => 236,'class' => 'img-responsive')) }} --}}
+	<!--{{ HTML::image('assets/images/equipo/cabecera.jpg',	$alt="imagen 1", $attributes = array('width' => '100%', 'height' => 236,'class' => 'img-responsive')) }}-->
     <div id="equipo">
     	<div class="container">
     		<div class="row experiencia">

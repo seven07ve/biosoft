@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
+@import 'https://fonts.googleapis.com/css?family=Reem+Kufi';
 @import 'https://fonts.googleapis.com/css?family=Oswald:300,400,700';
 
 html{
@@ -50,6 +51,14 @@ p{
 hr {
     border-bottom: 1px solid #d9d9d9;
 }
+
+.wrap-container{
+    padding-top: 0px;
+}
+
+.home{
+    padding-top: 0px;
+}
 /*----------colors---------------*/
 .verde{
     color: #84B522;
@@ -85,7 +94,7 @@ hr {
 		.fluid_container {
 			margin: 0 auto;
 			width: 100%;
-            margin-top: 85px;
+            /*margin-top: 85px;*/
 		}
 /*--------------------------------*/
 
@@ -171,10 +180,15 @@ hr {
     transition: .5s all;
 }
 
+.cont-porque{
+    padding-bottom: 3%;    
+}
+
 .porque{
     background-color: #f4f3f0;
     border: 1px solid #e2e1db;
     padding: 10px;
+    overflow: hidden;
 }
 
 .porque img {
@@ -193,7 +207,7 @@ hr {
 }
 
 .porque h3.capacitacion:before {
-    width: 50%;
+    width: 0%;
     height: 3px;
     margin-top: -10px;
     display: block;
@@ -206,7 +220,7 @@ hr {
 }
 
 .porque h3.capacitacion:after {
-    width: 50%;
+    width: 0%;
     height: 3px;
     margin-top: 7px;
     display: block;
@@ -218,11 +232,13 @@ hr {
     transition: .3s linear;
 }
 .porque:hover h3.capacitacion:before {
+    width: 50%;
     left: 25%;
     opacity: 1;
 }
 
 .porque:hover h3.capacitacion:after {
+    width: 50%;
     left: 25%;
     opacity: 1;
 }
@@ -255,9 +271,9 @@ hr {
     margin-bottom: 4%;
 }
 
-#equipo .experiencia .descripcion p {
+/*#equipo .experiencia .descripcion p {
     margin-top: 17%;
-}
+}*/
 
 .texto-equipo{
     margin-top: 15px;
@@ -270,7 +286,7 @@ hr {
 }
 
 #equipo .fa:hover{
-    color: #84B522;
+    color: #1C87BD;
 }
 
 .avatar {
@@ -286,13 +302,12 @@ hr {
     margin-left:10%;  
 }
 
-=======
-
 .trabajos{
     background-color: #f4f3f0;
     border: 1px solid #e2e1db;
     padding: 10px 0px;
-    min-height: 600px;
+    min-height: 650px;
+    margin-bottom: 10px;
 }
 
 .trabajos .titulo-verde,
@@ -329,7 +344,7 @@ hr {
 }
 
 .trabajos p{
-    padding: 20px;
+    padding: 0px 20px;
     text-align: justify;
 }
 /*---------------------------------*/
@@ -354,10 +369,6 @@ hr {
     padding: 3% 0px;
 }
 
-.sobre-img{
-    margin: 3% 0;
-}
-
 .sobre p{
     font-size: 20px;
 }
@@ -371,8 +382,469 @@ hr {
     font-size: 30px;
 }
 
+.sobre-secc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f4f3f0;
+    border: 1px solid #dedede;
+    padding: 0px;
+}
 
+.cont-texto{
+    font-size: 1rem;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cont-texto:before{
+	content: '';
+	position: absolute;
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+	top: -6px;
+	bottom: -6px;
+	left: -6px;
+	right: -6px;
+	transition-duration: 0.4s;
+	opacity: 0;
+}
+
+.cont-texto:hover:before{
+	opacity: 1;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+}
+
+.triangulo:after{
+    content: "";
+    border: 2px solid;
+    border-width: 15px 15px 15px 0;
+    border-color:  transparent #5c5c5c  transparent #5c5c5c;
+    background: #f4f3f0;
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.triangulo-izq:after{
+    content: "";
+    border: 2px solid;
+    border-width: 15px 0px 15px 15px;
+    border-color:  transparent #5c5c5c  transparent #5c5c5c;
+    background: #f4f3f0;
+    position: absolute;
+    left: 0;
+    top: 45%;
+}
+
+.sobre-img.izq{
+    padding: 0px;
+    /*padding-left: 0px;*/
+    border-left: 2px solid #5c5c5c;
+}
+
+.sobre-img.der{
+    padding: 0px;
+    /*padding-left: 0px;*/
+    border-right: 2px solid #5c5c5c;
+}
+
+.sobre-img.oscuro:before{
+	content: '';
+	position: absolute;
+	border: 2px solid #5c5c5c;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	transition-duration: 0.4s;
+	opacity: 0;
+}
+
+.sobre-img.claro:before{
+	content: '';
+	position: absolute;
+	border: 2px solid #FFF;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	transition-duration: 0.4s;
+	opacity: 0;
+}
+
+.sobre-img.claro:hover:before, .sobre-img.oscuro:hover:before{
+	opacity: 1;
+	top: 8px;
+	bottom: 8px;
+	left: 8px;
+	right: 8px;
+}
+
+#capacitacion img{
+    transition: 0.4s; 
+}
+#capacitacion .cont-img{
+    overflow: hidden;
+}
+
+#capacitacion img:hover{
+    transition: 0.4s linear;
+    transform: scale(1.1);
+}
+
+#equipo{
+    margin-top: 20px;
+}
 /*-------------------------------------------- */
+
+/*-------------------------------diplomados------------------------------------------*/
+
+#diplomado {
+  background-color: #fff;
+  padding: 0;
+}
+.separador-dip-xs{
+  margin-top: 85px;
+}
+#diplomado .container .row h1 {
+    color: #6D8D28;
+}
+#diplomado .container .row .titulo-md {
+  font-size: 42px;
+}
+#diplomado .container .row .titulo-sm {
+  font-size: 32px;
+}
+#diplomado .container .row .titulo-xs {
+  font-size: 28px;
+}
+#diplomado .container .row .sub-titulo-md {
+  font-size: 32px;
+}
+#diplomado .container .row .sub-titulo-sm {
+  font-size: 22px;
+}
+#diplomado .container .row .sub-titulo-xs {
+  font-size: 18px;
+}
+/* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container .row h2 {
+  font-family: "Questrial", sans-serif;
+  color: #555555;
+}
+.thumbnail h4 {
+  font-family: "Questrial", sans-serif;
+  color: #3594D6;
+  font-weight: bold;
+}
+/* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container .row h2 span {
+  font-weight: bold;
+  color: #3594D6;
+}
+/* line 17, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container > .gest .col-md-4 > p {
+  margin: 10% 0;
+  color: #555555;
+}
+/* line 20, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container > .gest .col-md-4 > p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+/* line 27, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container > .row .col-md-4 > p.eslogan {
+  font-family: "Questrial", sans-serif;
+  font-size: 22px;
+  color: #3594D6;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.atras{
+  float: right;
+  width:50px;
+  height:41px;
+  margin-bottom: 10px;
+}
+
+a:hover .{
+    opacity: 0.5;
+}
+
+.inscribete {
+  text-align: center;
+  background-color: #3594D6;
+  padding: 20px;
+  line-height: 1.5;
+}
+.inscribete a {
+  font-size: 24px;
+  color: #F0F0F0;
+}
+.inscribete a:hover, .inscribete a:focus, .inscribete a:active, .inscribete a.active, .open > .inscribete a.dropdown-toggle {
+  color: #fff;
+}
+#descr-dip{
+  background-color: #EFEFEF;
+  text-align: justify;
+  min-height: 610px;
+}
+#descr-dip .titulo{
+  padding-bottom: 20px;
+}
+.descr-dip-link{
+  color: #333333;
+}
+
+.descr-dip-link:hover{
+    color: #3594D6;
+}
+
+.descr-dip-img{
+  float: right;
+  margin: 5px 0px 15px 25px;
+}
+.dip-icons{
+  max-width: 100%;
+  margin: 10px auto;
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+a:hover .dip-icons{
+  -webkit-transform: scale(1.2);
+  -webkit-transition: all 0.4s ease-in-out;
+  transform: scale(1.2);
+  transition: all 0.4s ease-in-out;
+}
+.separador{
+  background: #3594D6;
+  padding: 1% 0%;
+}
+a.link-bloq-cap, a.link-bloq-cap:hover, a.link-bloq-cap:visited{
+  color:  #4D4D4D;
+}
+.bloq-cap {
+  min-height: 268px;
+  padding:30px 30px 5px 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #788F84;
+  border-radius: 3px; 
+}
+.bloq-cap:hover {
+  background-color: #CCCCDC;
+  border: 1px solid #C19C87;
+  }
+.bloq-cap-tit{
+  margin-top: 20px;
+  padding-top: 20px;
+  font-family: "Questrial", sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-top: 2px solid #53749B;
+}
+/*---------------------- Este es para los cuadros de los cursos en la nueva seccion-------*/
+.recuadro{
+    font-size: 110%;
+    font-weight: bold;
+    color: #000;
+    padding: 1.5em;
+    border-radius: 8px;
+    min-height: 115px;
+}
+.recuadro:hover{
+    color: #FFF;
+    border-radius: 22px;
+}
+.recuadro-grd{
+    font-size: 120%;
+    font-weight: bold;
+    color: #000;
+    padding: 0.3em;
+    border-radius: 8px;
+    min-height: 115px;
+}
+.recuadro-grd:hover{
+    color: #FFF;
+    border-radius: 22px;
+}
+.recuadro-dip{
+    font-size: 120%;
+    color: #000;
+    padding: 0.3em;
+    border-radius: 8px;
+    min-height: 115px;
+}
+.recuadro-dip:hover{
+    color: #3595D7;
+}
+.flecha{
+    min-height: 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-top: 0.5em;
+}
+.flecha:hover{
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+.dip-img{
+    margin: 0 auto;
+    min-height: 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-top: 0.5em;
+}
+.dip-img:hover{
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+/*-----------colores--------------------*/
+.verd{
+    background-color:#6b9337;
+    border: 2px solid #467e00;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.verd:hover{
+    background-color:rgba(85, 152, 0, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ocre{
+    background-color:#D57D33;
+    border: 2px solid #a5632b;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ocre:hover{
+    background-color:rgba(213, 125, 51, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.vino{
+    background-color:#811f65;
+    border: 2px solid #5d0945;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.vino:hover{
+    background-color:rgba(129, 11, 95, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.azul-claro{
+    background-color:#337eb9;
+    border: 2px solid #005ea8;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.azul-claro:hover{
+    background-color:rgba(51, 126, 185, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.turq-oscuro{
+    background-color:#387c93;
+    border: 2px solid #00465d;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.turq-oscuro:hover{
+    background-color:rgba(56, 124, 147, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*------------------------- cursos --------------------*/
+#cursos .container .titulo {
+    margin-bottom: 5%;
+}
+#cursos  .nomb-areas{
+ margin-top: 80px;
+}
+
+#cursos .iconos-cursos img{
+    float: left;
+    margin: -30% 0 0 -30%;
+    width: 40%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+#cursos .container p{
+  color: #333333
+}
+
+#cursos .lista{
+  color: #FFFFFF;
+}
+
+#cursos .lista li{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#cursos .lista .is{
+  background-color: #646F9F;
+  padding: 5%;
+  min-height:  780px;
+}
+
+#cursos .lista .gi{
+  background-color: #577F5C;
+  padding: 5%;
+  min-height:  780px;
+}
+
+#cursos .lista a{
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cursos .lista a:hover{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #C9C9C9;
+  text-decoration: none;
+}
+/* line 105, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro {
+  padding: 5% 0;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 110, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro img.titulo {
+  margin-left: -46px;
+  margin-bottom: 2%;
+}
+/* line 114, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro .lista {
+  padding-left: 10%;
+}
+/* line 117, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro .lista .titulo p {
+  font-size: 20px;
+}
 
 /*--------------------------------------------*/
 @media screen and (max-width: 1024px){
@@ -403,9 +875,9 @@ hr {
     }
 }
 
-    #equipo .experiencia .descripcion p {
+    /*#equipo .experiencia .descripcion p {
     margin-top: 23%;
-    }
+    }*/
 }
 
 @media screen and (max-width: 800px){

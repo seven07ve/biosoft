@@ -16,7 +16,11 @@ Route::get('/', function()
 	//return Redirect::to('inicio/funcion');
 	return View::make('estaticas.inicio-nuevo');
 });
-
+Route::get('home-v', function()
+{
+	//return Redirect::to('inicio/funcion');
+	return View::make('estaticas.inicio-viejo');
+});
 //vieja
 /*Route::get('/', function()
 {
@@ -45,10 +49,12 @@ Route::get('metodos', function()
     return View::make('estaticas.metodos');
 });
 
+Route::get('sobrebio', function(){
+    return View::make('estaticas.sobre');
+});
 Route::get('empresa', function()
 {
 	return View::make('estaticas.empresa');
-
 });
 
 Route::get('contacto', function()
