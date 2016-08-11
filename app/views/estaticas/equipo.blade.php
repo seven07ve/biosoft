@@ -51,7 +51,7 @@
     						<p class="text-justify text-left">
     							Ingeniero de Sistemas (Universidad de Los Andes ULA, Venezuela),
     							MSc en Computación (ULA, Venezuela) Magister en Manejo Forestal
-    							(ULA, Venezuela)Fue profesor contratado de la Facultad de Ciencias
+    							(ULA, Venezuela). Fue profesor contratado de la Facultad de Ciencias
     							Forestales de la ULA. <br/>
     							Fue Jefe de la Sección de Información Ambiental
     							de CVG EDELCA. Líder de varios proyectos de desarrollo de software.
@@ -115,7 +115,8 @@
                         <hr>
                         <div class="descripcion">
                             <p class="text-justify text-left">
-                                Profesora titular del Departamento de Computación de la Facultad de Ingeniería de la Universidad de Los Andes (ULA). Ingeniera de Sistemas (ULA, Venezuela).<br/> Magister en Sistemas de Información (Instituto Tecnológico de Monterrey, México).D.E.A. en Bases de Datos. Dra. en Informática. Fue Coordinadora del Laboratorio de Sistemas Computacionales del Dpto. de Computación de la ULA. <br/> Miembro del Grupo de Investigación en Ingeniería de Datos y Conocimiento de la ULA. <br...(line truncated)...
+                                Profesora titular del Departamento de Computación de la Facultad de Ingeniería de la Universidad de Los Andes (ULA). Ingeniera de Sistemas (ULA, Venezuela).<br/> Magister en Sistemas de Información (Instituto Tecnológico de Monterrey, México). D.E.A. en Bases de Datos. Dra. en Informática. Fue Coordinadora del Laboratorio de Sistemas Computacionales del Dpto. de Computación de la ULA. <br/> Miembro del Grupo de Investigación en Ingeniería de Datos y Conocimiento de la ULA. <br>
+                                Secretaria de la Junta Directiva de BIOSOFT C.A.
                                 <a href="http://www.webdelprofesor.ula.ve/ingenieria/ijudith/" target="_blank">
                                 Web del Profesor</a>
                             </p>
@@ -145,12 +146,12 @@
                             <p class="text-justify text-left">
                                 Profesora titular del Departamento de Computación de la
                                 Facultad de Ingeniería de la Universidad de Los Andes Ingeniera de
-                                Sistemas (ULA, Venezuela) MSc en Computación (ULA, Venezuela)D.E.A. en
-                                Automatización (Universidad Carlos III de Madrid, España)Doctorado en
+                                Sistemas (ULA, Venezuela) MSc en Computación (ULA, Venezuela). D.E.A. en
+                                Automatización (Universidad Carlos III de Madrid, España). Doctorado en
                                 Informática (Universidad Carlos III de Madrid, España). <br/>
                                 Miembro del
                                 Grupo de Investigación de Ingeniería de Datos y Conocimientos
-                                (GIDYC)Profesora del Postgrado en Computación de la ULA. <br/>
+                                (GIDYC). Profesora del Postgrado en Computación de la ULA. <br/>
                                  Directora de
                                 la Escuela de Ingeniería de Sistemas de la Facultad de Ingeniería de la ULA.
                             </p>
@@ -179,14 +180,14 @@
                             <p class="text-justify text-left">
                                 Profesora titular del Departamento de Computación de la Facultad
                                 de Ingeniería de la Universidad de Los Andes. Ingeniera de Sistemas
-                                (ULA, Venezuela),D.E.A. en Sistemas Informáticos Ph.D. en Estudios
+                                (ULA, Venezuela). D.E.A. en Sistemas Informáticos. Ph.D. en Estudios
                                 de Computación. <br/>
                                 Profesora del Postgrado en Computación de la ULA en
                                 las asignaturas de Bases de Datos Avanzadas, Análisis y Diseño de
                                 Algoritmos, Sistemas Multimedia y Seminario de Nuevas Tecnologías. <br/>
                                 Coordinadora del Grupo de Investigación en Ingeniería de Datos y
                                 Conocimientos (GIDyC) del Departamento de Computación de la ULA. <br/>
-                                Secretaria de la Junta Directiva de BIOSOFT C.A. <br/>
+                                <br/>
                                  Sitio:
                                 <a href="http://www.webdelprofesor.ula.ve/ingenieria/ibc/" target="_blank">Web del Profesor</a>
                             </p>
@@ -213,9 +214,9 @@
                         <hr>
                         <div class="descripcion">
                             <p class="text-justify text-left">
-                                Ingeniero de Sistemas (ULA, Venezuela)Personal Profesional
+                                Ingeniero de Sistemas (ULA, Venezuela). Personal Profesional
                                 Jubilado de la Dirección de Servicios de Información
-                                Administrativa (antiguo Centro de Computación) de la
+                                Administrativa de la
                                 Universidad de Los Andes, Venezuela. <br/>
                                 Líder de proyectos
                                 de desarrollo de software.  <br/>
@@ -251,7 +252,6 @@
                                 Experiencia en Análisis y Desarrollo de Sistemas, Programación web (Dominio HTML5, CSS, PHP, Ruby on Rails, Javascript, Boostrap, SQL, XML, JQuery, Git, Base de Datos: MySQL, PostgreSQL).<br/> 
                                 Especialista en Gerencia Pública. 
                                 Actualmente Estudiante de Postgrado de Computación en la Universidad de los Andes (ULA).
-                                Actualmente Programador de BIOSOFT. 
                             </p>
                         </div>
                     </div>
@@ -340,6 +340,7 @@
                                 Lic. Contador Público (ULA). <br/>
                                 TSU. Informática (IUTE). <br/>
                                 Diplomado en Componente Docente (UNEFA). <br/>
+                                Administradora de Biosoft.
                             </p>
                         </div>
                     </div>

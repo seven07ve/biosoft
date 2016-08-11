@@ -33,7 +33,7 @@
 </div>
 <div class="capacidad container">
         <div class="row">
-           <h2 class="titulo-seccion">Lo que sabemos</h2>
+           <h2 class="titulo-seccion">Lo que Sabemos</h2>
            <br>
            <div class="sobre-secc">
             <div class="col-md-5 text-justify triangulo">
@@ -48,7 +48,7 @@
         </div>
         <div class="row">
           <br><br>
-           <h2 class="titulo-seccion">Lo que hacemos</h2>
+           <h2 class="titulo-seccion">Lo que Hacemos</h2>
            <br><br>
            <div class="sobre-secc">
             <div class="col-xs-12 col-md-7 sobre-img der claro">

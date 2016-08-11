@@ -20,8 +20,8 @@
                             <hr>
                             <br>
                             <p style="line-height:30px;">Av. Principal de Los Chorros de Milla, <br> <strong>Centro Comercial Empresarial “Villa Los Chorros”</strong>, <br>
-                            Torre A, Piso 5. <br>
-                            Mérida, Venezuela.Centro Empresarial Cedropoint<br>
+                            Torre A, Piso 2. <br>
+                            Mérida, Venezuela.<br>
                             </p>
                             <p>Telf: (+58) 274-7892669</p>
 							<p>Fax: (+58) 274-2459702</p>
@@ -30,7 +30,7 @@
                             <br></div>
                                 <br clear="all">
 				</div>
-				<div class="col-md-7 sobre-img izq oscuro">
+				<div class="col-md-7  izq oscuro">
 					<div class="mapa">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.677961719082!2d-71.13842325000002!3d8.626882599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e64812ec9a3d455%3A0xf63a2190ba96737c!2sCentro+Comercial+Villa+Los+Chorros%2C+M%C3%A9rida!5e0!3m2!1ses!2sve!4v1411045449508" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 					</div>

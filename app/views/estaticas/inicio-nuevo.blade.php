@@ -79,6 +79,23 @@
 			    <div class="row text-center">
 			        <div class="col-md-4">
 			        <div class="porque">
+			        	{{ HTML::image('assets/images/inicio/desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <h3 class="capacitacion">
+				            DESARROLLO DE SOFTWARE
+			            </h3>
+                        <ul class="check-list">
+                            <li>Tenemos experiencia de 20 años en desarrollo de software</li>
+                            <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
+                            <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
+                            <li>Desarrollamos software guiado por pruebas</li>
+                            <li>Programamos en Ruby on Rails y php Laravel</li>
+                        </ul>
+                        <hr>
+                    </div>
+                    </div>
+			        <div class="col-md-4">
+			        <div class="porque">
 			        	{{ HTML::image('assets/images/inicio/consultoria.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
 			            <h3 class="capacitacion">
@@ -109,23 +126,7 @@
                         <hr>
                     </div>
                     </div>
-			        <div class="col-md-4">
-			        <div class="porque">
-			        	{{ HTML::image('assets/images/inicio/desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
-                        <hr>
-			            <h3 class="capacitacion">
-				            DESARROLLO DE SOFTWARE
-			            </h3>
-                        <ul class="check-list">
-                            <li>Tenemos experiencia de 20 años en desarrollo de software</li>
-                            <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
-                            <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
-                            <li>Desarrollamos software guiado por pruebas</li>
-                            <li>Programamos en Ruby on Rails</li>
-                        </ul>
-                        <hr>
-                    </div>
-                    </div>
+
 			    </div>
 			</div>
         </div>
@@ -140,26 +141,26 @@
                 <section class="autoplay ">
                    <hr>
                     <div id="owl-demo" class="owl-carousel">
-                        <div class="item"><img src="assets/images/clientes/cencoex.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/bod.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/univ-lisandro.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/enelven.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/ceisoft.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/bcv.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/ula.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/gasprom.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/pdvsa.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/caf.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/smurfit.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/pdvsa.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/min-ambiente.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/seniat.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/cvg.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/ena-for.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/farmatodo.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/mad-orinoco.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/intt.jpg" alt="Owl Image"></div>
-                        <div class="item"><img src="assets/images/clientes/va-isid.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/bcv.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/bod.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/cencoex.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/cvg.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/ula.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/seniat.jpg" alt="Owl Image"></div>
                         <div class="item"><img src="assets/images/clientes/guardianes.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/univ-lisandro.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/farmatodo.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/intt.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/enelven.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/ceisoft.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/va-isid.jpg" alt="Owl Image"></div>
                     </div>
                     <hr>
                 </section>
@@ -190,7 +191,9 @@
 			            <h3 class="titulo-naranja">
 				            DESARROLLO DE SOFTWARE
 			            </h3>
-                            <p></p>
+                            <p>
+                                Software como Servicio. 
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">

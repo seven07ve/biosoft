@@ -8,7 +8,7 @@
     <div id="capacitacion">
         <div class="container">
         <div class="row info">
-				<h2 class="titulo-seccion">Algunos de nuestros<span>Trabajos</span></h2>
+				<h2 class="titulo-seccion">Algunos de Nuestros<span> Trabajos</span></h2>
 		</div>
         <section class="Collage effect-parent">
             <div class="Image_Wrapper" data-caption="SHiMed es una aplicación web, bajo la plataforma Ruby on Rails y PostgreSQL, que  permite el registro de los actores de salud.">
