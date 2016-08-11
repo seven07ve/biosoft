@@ -3,7 +3,7 @@
 		{{ HTML::link('sobrebio', 'SOBRE BIOSOFT'); }}<br>
 		{{ HTML::link('equipo', 'EQUIPO'); }}<br>	
 		{{ HTML::link('metodos', 'MÉTODOS'); }}<br>
-		{{ HTML::link('consultoría', 'CONSULTORÍA'); }}
+		{{ HTML::link('consultoria', 'CONSULTORÍA'); }}
 		
 	</div>
 	<div class="footer-top col-md-4 col-sm-12">
@@ -39,7 +39,7 @@
 		</div>
 	</div>
 	<div class="lista-right col-md-4 col-sm-12">
-		{{ HTML::link('capacitación', 'CAPACITACIÓN'); }}<br>
+		{{ HTML::link('capacitacion', 'CAPACITACIÓN'); }}<br>
 		{{ HTML::link('desarrollo', 'DESARROLLO'); }}<br>
 		{{ HTML::link('portafolio', 'PORTAFOLIO'); }}<br>
 		{{ HTML::link('contacto', 'CONTACTO'); }}

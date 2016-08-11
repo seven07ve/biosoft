@@ -34,6 +34,7 @@
 <div class="capacidad container">
         <div class="row">
            <h2 class="titulo-seccion">Lo que sabemos</h2>
+           <br>
            <div class="sobre-secc">
             <div class="col-md-5 text-justify triangulo">
                 <div class="cont-texto">
@@ -46,15 +47,17 @@
             <br clear="all"></div>
         </div>
         <div class="row">
+          <br><br>
            <h2 class="titulo-seccion">Lo que hacemos</h2>
+           <br><br>
            <div class="sobre-secc">
-            <div class="col-md-5 text-justify triangulo">
+            <div class="col-xs-12 col-md-7 sobre-img der claro">
+                    {{ HTML::image('assets/images/sobre/hacemos.jpg', $alt="imagen 1", $attributes = array('width' => "100%",  'class' => 'img-responsive')) }}
+            </div>
+            <div class="col-md-5 text-justify triangulo-izq">
                 <div class="cont-texto">
                     <p>Desarrollamos software a medida para grandes empresas, aplicaciones web para PYMES, diseño y rediseño web. Además hacemos Modelado y Gestión de Procesos de Negocio, Arquitectura Orientada a Servicios SOA, planificación de arquitectura empresarial. Adicionalmente impartimos Diplomados y cursos certificados en BPM e Ingeniería de Requisitos, impartimos cursos gratuitos, en Línea, Masivos y Abiertos en Ingeniería del Software, dictamos cursos y talleres presenciales.</p>
                 </div>
-            </div>
-            <div class="col-xs-12 col-md-7 sobre-img izq claro">
-                    {{ HTML::image('assets/images/sobre/hacemos.jpg', $alt="imagen 1", $attributes = array('width' => "100%",  'class' => 'img-responsive')) }}
             </div>
             <br clear="all"></div>
         </div>
@@ -62,7 +65,9 @@
 <div class="container cont-porque">
     <div class="row">
         <div class="col-md-12">
+           <br><br>
             <h2 class="titulo-seccion">Por qué nosotros</h2>
+            <br><br>
             <div class="row text-center">
                 <div class="col-md-4">
                 <div class="porque">

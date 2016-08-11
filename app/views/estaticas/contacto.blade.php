@@ -8,42 +8,48 @@
 
 	{{ HTML::script('assets/javascripts/bootstrapValidator.min.js')}}
 	{{ HTML::script('assets/javascripts/contacto.js')}}
-
 	<div id="contacto">
 		<div class="container">
-			<div class="row title">
-				<div class="col-md-12">
-					<h2 class="titulo-seccion">Ubicación de la Empresa</h2>
-				</div>
-			</div>
 			<div class="row">
-				<div class="col-md-offset-1 col-md-4">
-					<p>Av. Principal de Los Chorros de Milla, Centro Comercial Empresarial “Villa Los Chorros”, Torre A, Piso 5. Mérida, Venezuela.</p>
+    			<h2 class="titulo-seccion">Ubicación de la Empresa</h2>
+    			<br><br>
+    			 <div class="sobre-secc">
+				<div class="col-md-5  triangulo">
+                            <div style="float:left; width:100%; margin-left:10px;">
+                            <h3>SEDE</h3>
+                            <hr>
+                            <br>
+                            <p style="line-height:30px;">Av. Principal de Los Chorros de Milla, <br> <strong>Centro Comercial Empresarial “Villa Los Chorros”</strong>, <br>
+                            Torre A, Piso 5. <br>
+                            Mérida, Venezuela.Centro Empresarial Cedropoint<br>
+                            </p>
+                            <p>Telf: (+58) 274-7892669</p>
+							<p>Fax: (+58) 274-2459702</p>
+							<p>atencion@biosoftca.com</p>
+                            <hr>
+                            <br></div>
+                                <br clear="all">
 				</div>
-			</div>
-			<div class="row mapa">
-				<div class="col-md-12">
+				<div class="col-md-7 sobre-img izq oscuro">
 					<div class="mapa">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.677961719082!2d-71.13842325000002!3d8.626882599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e64812ec9a3d455%3A0xf63a2190ba96737c!2sCentro+Comercial+Villa+Los+Chorros%2C+M%C3%A9rida!5e0!3m2!1ses!2sve!4v1411045449508" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 					</div>
 				</div>
-				{{--<div class="col-md-6 direccion">--}}
-					{{--<p>--}}
-						{{--Av. Principal de Los Chorros de Milla, Centro Comercial Empresarial “Villa Los Chorros”, Torre A, Piso 5. Mérida, Venezuela.--}}
-					{{--</p>--}}
-				{{--</div>--}}
+                </div>
 			</div>
 		</div>
 	</div>
 	<div id="formulario">
 		<div class="container">
+		<br><br>
+		<h2 class="titulo-seccion">Formulario de Contacto</h2>
+		<br><br>
 			<div class="row title">
 				<div class="col-md-12">
-					<h2>Formulario de Contacto</h2>
 				</div>
 			</div>
 			<div class="row form">
-				<div class="col-md-6">
+				<div class="col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1 col-lg-offset-1 col-lg-9">
 					{{ $mensaje }}
 					{{ Form::open(array('url' => 'enviarCorreo',
 										'method' => 'POST',
@@ -129,54 +135,6 @@
 						</div>
 					{{ Form::close() }}
 				</div>
-				<div class="col-md-1 separador">
-					<div class="linea"></div>
-					
-				</div>
-				<div class="col-md-5 direccion">
-					<div class="row">
-						<div class="col-md-3 enlaces">
-							<div class="row">
-								<a href="#">
-								{{ HTML::image('assets/images/contacto/email.png', 
-					$alt="imagen 1", $attributes = array('width' => 71, 'height' => 69, 
-					'class' => 'img-responsive')) }}
-							</a>
-							</div>
-							<div class="row">
-								<a href="contacto">
-								{{ HTML::image('assets/images/contacto/face.png', 
-					$alt="imagen 1", $attributes = array('width' => 71, 'height' => 63, 
-					'class' => 'img-responsive')) }}
-							</a>
-							</div>
-							<div class="row">
-								<a href="https://twitter.com/biosoftca" target="_blank">
-								{{ HTML::image('assets/images/contacto/twitter.png', 
-					$alt="imagen 1", $attributes = array('width' => 71, 'height' => 65, 
-					'class' => 'img-responsive')) }}
-							</a>
-							</div>
-							<div class="row">
-								<a href="#">
-								{{ HTML::image('assets/images/contacto/link.png', 
-					$alt="imagen 1", $attributes = array('width' => 71, 'height' => 63, 
-					'class' => 'img-responsive')) }}
-							</a>
-							</div>
-							
-						</div>
-						<div class="col-md-9 telefonos">
-							{{ HTML::image('assets/images/contacto/logo-bio.png', 
-							$alt="imagen 1", $attributes = array('width' => 195, 'height' => 82, 
-							'class' => 'img-responsive')) }}
-							<p>Telf: (+58) 274-7892669</p>
-							<p>Fax: (+58) 274-2459702</p>
-							<p>atencion@biosoftca.com</p>
-						</div>
-					</div>
-				</div>
-				
 			</div>
 		</div>
 	</div>

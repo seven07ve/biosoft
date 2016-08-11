@@ -845,6 +845,21 @@ a.link-bloq-cap, a.link-bloq-cap:hover, a.link-bloq-cap:visited{
 #cursos .container .cuadro .lista .titulo p {
   font-size: 20px;
 }
+/*------------------------- contacto---------------------*/
+#formulario{
+    padding-bottom: 1%;
+}
+
+#formulario label{
+    font-size: 1rem;
+    font-family: Oswald;
+    letter-spacing: .8px;
+}
+
+#formulario input,textarea{
+    border-radius: 4px;
+}
+/*------------------------------------------------------*/
 
 /*--------------------------------------------*/
 @media screen and (max-width: 1024px){
