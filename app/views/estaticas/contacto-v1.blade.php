@@ -8,12 +8,14 @@
 
 	{{ HTML::script('assets/javascripts/bootstrapValidator.min.js')}}
 	{{ HTML::script('assets/javascripts/contacto.js')}}
-
+	{{ HTML::image('assets/images/contacto/cabecera.jpg', 
+	$alt="imagen 1", $attributes = array('width' => 1600, 'height' => 236, 
+	'class' => 'img-responsive')) }}
 	<div id="contacto">
 		<div class="container">
 			<div class="row title">
 				<div class="col-md-12">
-					<h2 class="titulo-seccion">Ubicación de la Empresa</h2>
+					<h2>Ubicación de la Empresa</h2>
 				</div>
 			</div>
 			<div class="row">

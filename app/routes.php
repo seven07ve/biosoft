@@ -16,10 +16,10 @@ Route::get('/', function()
 	//return Redirect::to('inicio/funcion');
 	return View::make('estaticas.inicio-nuevo');
 });
-Route::get('home-v', function()
+Route::get('portafolio', function()
 {
 	//return Redirect::to('inicio/funcion');
-	return View::make('estaticas.inicio-viejo');
+	return View::make('estaticas.portafolio');
 });
 //vieja
 /*Route::get('/', function()

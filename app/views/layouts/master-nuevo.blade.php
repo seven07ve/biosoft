@@ -22,8 +22,6 @@
     {{ HTML::script('http://code.jquery.com/jquery-2.2.0.min.js') }}
     <!--Bootstrap js-->
 	{{ HTML::script('assets/javascripts/bootstrap.js')}}
-<!--    <link rel="stylesheet" type="text/css" href="assets/collageplus/support/examples.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="assets/collageplus/css/transitions.css" media="all" />-->
 
     <!--[if lt IE 9]>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
