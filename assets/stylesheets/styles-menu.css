@@ -15,10 +15,10 @@ font-family: 'Montserrat', sans-serif;
 
 /*Estilo del div de la barra de navaegación*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-
-background-color: #33332F;
-text-align: center;
-line-height: 1.0;
+    background-color: #33332F;
+    text-align: center;
+    line-height: 1.0;
+    transition: .3s linear;
 }
 
 /*Estilo de la barra de navehgación*/
@@ -32,6 +32,16 @@ body header .navbar-nav {
   padding: 25px 25px 29px;
   font-size: 0.8rem;
   color: #eee !important;
+}
+/*menu flotante*/
+.f-nav{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: .3s linear;
+    box-shadow: 0px 5px 10px #000;
 }
 
 /*Estilos del Hover de los elementos de la barra de navegación*/

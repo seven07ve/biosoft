@@ -1,4 +1,19 @@
-<nav class="navbar navbar-default " role="navigation">
+<script>
+jQuery("document").ready(function($){
+	
+	var nav = $('.navbar-collapse');
+	
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 10) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+
+});
+</script>
+  <nav class="navbar navbar-default " role="navigation">
   <div class="container-fluid">
     <div class= "top-cabecera">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
