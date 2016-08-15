@@ -115,6 +115,16 @@ footer .footer-top {
 	text-align: center;
 }
 
+footer .footer-top p{
+    font-size: 12px;
+    line-height: 12px;
+    transition: .3s linear;
+}
+
+footer .footer-top p:hover{
+    color: white;
+}
+
 .redes-footer{
 	text-align: center;
 	display: inline-block;

@@ -10,7 +10,6 @@
 		<div class="logo-footer">
 			{{ HTML::image('assets/images/layout/footer_bio-logo.png', $alt="Logo") }}
 		</div>
-		
 		<div class= "redes-footer">
 			<!--facebook--> 
 			<div class="facebook-footer">
@@ -36,6 +35,10 @@
 	            <i class="fa fa-envelope" aria-hidden="true"></i>
 	          </a>
 	        </div>  
+		</div>
+		<div>
+		    <p>Telf: (+58) 274-7892669</p>
+		    <p>atencion@biosoftca.com</p>
 		</div>
 	</div>
 	<div class="lista-right col-md-4 col-sm-12">
