@@ -859,6 +859,10 @@ a.link-bloq-cap, a.link-bloq-cap:hover, a.link-bloq-cap:visited{
 #formulario input,textarea{
     border-radius: 4px;
 }
+
+google-map {
+    height: 400px;
+  }
 /*------------------------------------------------------*/
 
 /*--------------------------------------------*/

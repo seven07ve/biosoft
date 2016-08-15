@@ -31,9 +31,17 @@
                                 <br clear="all">
 				</div>
 				<div class="col-md-7  izq oscuro">
-					<div class="mapa">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.677961719082!2d-71.13842325000002!3d8.626882599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e64812ec9a3d455%3A0xf63a2190ba96737c!2sCentro+Comercial+Villa+Los+Chorros%2C+M%C3%A9rida!5e0!3m2!1ses!2sve!4v1411045449508" width="100%" height="400" frameborder="0" style="border:0"></iframe>
-					</div>
+				<google-map latitude="8.625" longitude="-71.138" zoom=15 api-key="AIzaSyCqm4_CZCe927nQpljg6PsFpqlhcf_TNvs">
+				    <google-map-marker latitude="8.626796" longitude="-71.138473" title="Biosoft C.A.">
+				        {{ HTML::image('assets/images/layout/logo_headernew.png',
+                  $alt="Biosof c.a", $attributes = array('width' => 162, 'height' => 61,
+                    'class' => 'img-responsive')) }}
+                    {{ HTML::image('assets/images/contacto/img-google-map.jpg',
+                  $alt="Biosof c.a", $attributes = array('width' => 200, 'height' => 112,
+                    'style' => 'float:right;')) }}
+				        <p>BioSoft es Ingeniería de Software y Gestión Informática  a su medida. Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole valor a su empresa. </p>
+				    </google-map-marker>
+				</google-map>
 				</div>
                 </div>
 			</div>

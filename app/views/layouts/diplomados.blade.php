@@ -20,8 +20,6 @@
 	{{ HTML::style('assets/fractionslider2/css/style.css') }}
 	{{ HTML::style('assets/fractionslider2/css/fractionslider.css') }}
 	{{ HTML::script('assets/fractionslider2/js/jquery-1.9.0.min.js') }}
-	{{ HTML::script('assets/fractionslider2/js/jquery.fractionslider.js') }}
-	{{ HTML::script('assets/fractionslider2/js/main.js') }}
 
 </head>
 <body>
@@ -58,5 +56,7 @@
 			<?php echo View::make('parciales.footer-nuevo') ?>
 		</div>
 	</footer>
+	{{ HTML::script('assets/fractionslider2/js/jquery.fractionslider.js') }}
+	{{ HTML::script('assets/fractionslider2/js/main.js') }}
 </body>
 </html>

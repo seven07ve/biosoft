@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="assets/stylesheets/font-awesome/css/font-awesome.min.css">
     {{HTML::style('assets/stylesheets/styles-menu.css')}} 
     {{HTML::style('assets/stylesheets/styles-footer.css')}} 
-	{{-- {{ HTML::style('assets/stylesheets/styles.css') }}
-	{{ HTML::style('assets/stylesheets/new-styles.css') }} --}}
+	<!--mapa de google con polimer-->
+	<link rel="import" href="assets/bower_components/google-map/google-map.html">
 	
 		<!--Estilos pagina nueva-->
 	

@@ -11,7 +11,7 @@
     		<div class="row experiencia">
 				<div class="col-md-12 hidden-xs">
 					<div class="descripcion">
-						<p class="text-left">
+						<p class="text-justify">
 							En BIOSOFT trabajamos especialistas en las áreas de Ingeniería
 							de Software y Sistemas de Información, con formación de 4to y 5to
 							nivel y una extensa experiencia académica y profesional.
@@ -291,7 +291,7 @@
                 <div class="row integrante">
                     <div class="col-md-4 col-md-offset-2 col-sm-12">
                     {{-- {{ HTML::image('assets/images/equipo/yu-picture.jpg',$alt="Jhean Carlos Guerrero", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }} --}}
-                        <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/yu-picture.jpg)"></div>
+                        <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/jc-picture.jpg)"></div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <div class="nombre">
@@ -306,10 +306,15 @@
                         <hr>
                         <div class="descripcion">
                             <p class="text-justify text-left">
-                                Ingeniero de Sistemas. <br/>
-                                Especialista en Análisis de Negocio y Requisitos <br/>
-                                Programación web (Dominio HTML, CSS, PHP, Laravel,
-                                Base de Datos: MySQL, PostgreSQL). 
+                                T.S.U en Informática. <br/>
+                                Graduado en el IUFRONT, con 11 años de experiencia en el Desarrollo de Software
+                                orientado a la Web, Análisis y Diseño de Sistemas, Web master en servidores Linux. <br>
+                                Especialista en LAMP, Diseño y Maquetación Web.<br/>
+                                Con dominio de los lenguajes Visual Basic, C/C++, PHP, HTML5/CSS3, JavaScript, ActionScript. 
+                                Los sistemas de gestión de bases de datos Mysql y MariaDB. Manejo de frameworks y herramientas 
+                                como: LARAVEL, Angular 2, Bootstrap, Sass, Less, jQuery, Git, Vagrant, Dreamweaver, Sublime Text, 
+                                Brackets, Visual Studio Code, phpMyAdmin, Adminer, WordPrees, SuiteCRM, Fireworks, Illustrator,
+                                Photoshop y Flash.
                             </p>
                         </div>
                     </div>
