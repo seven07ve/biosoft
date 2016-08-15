@@ -171,7 +171,7 @@
     <div id="">
         <div class="container">
         <div class="row info">
-				<h2 class="titulo-seccion">Algunos de nuestros<span>Trabajos</span></h2>
+				<h2 class="titulo-seccion">Portafolio</h2>
 		</div>
         <div class="row text-center">
 			        <div class="col-md-4">
