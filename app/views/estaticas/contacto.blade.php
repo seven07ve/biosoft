@@ -23,6 +23,9 @@
                             Torre A, Piso 2. <br>
                             Mérida, Venezuela.<br>
                             </p>
+                            {{ HTML::image('assets/images/contacto/img-google-map.jpg',
+                  $alt="Biosof c.a", $attributes = array('width' => 200, 'height' => 112,
+                    'style' => 'float:right; padding:5px;     border: 1px solid #dedede;')) }}
                             <p>Telf: (+58) 274-7892669</p>
 							<p>Fax: (+58) 274-2459702</p>
 							<p>atencion@biosoftca.com</p>
