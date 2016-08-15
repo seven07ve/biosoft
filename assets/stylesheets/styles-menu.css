@@ -29,38 +29,36 @@ body header .navbar-nav {
 
 /*Estilo de los li-a barra de nav*/
   body header .navbar-nav li a {
-  padding: 15px 25px 14px;
-  font-size: 0.7rem;
+  padding: 25px 25px 29px;
+  font-size: 0.8rem;
   color: #eee !important;
 }
 
 /*Estilos del Hover de los elementos de la barra de navegación*/
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #84B522  !important;
-  background-color: #000;
+  background-color: #0f0f0f;
   border-bottom: 1px solid #84B522 ;
 }
     
 /*Estilos del Active de los elementos de la barra de navegación*/
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #84B522  !important;
-  background-color: #000;
+  /*background-color: #0f0f0f;*/
+    background-color: transparent;
   border-bottom: 1px solid #84B522;
   
 }
 
 /*Estilo del div del logo de Biosoft*/
  .logo-biosoft {
-	   width: 35%;
-    margin-left: 26%;
-    display: inline-block;
-    margin-top: 7px;
+     display: inline-block;
+     margin-right: 1%;
+     padding: 10px 0px;
  }
 
  .logo-biosoft img {
-  max-width: 50%;
-  width: 64%;
-  margin-left: 43%;
+  
  }
 
 
