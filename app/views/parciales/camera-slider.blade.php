@@ -1,5 +1,13 @@
 <div class="fluid_container">
      <div class="camera_wrap camera_orange_skin" id="camera_wrap_1">
+            <div data-thumb="assets/camera/images/slides/thumbs/eventos.jpg" data-src="assets/camera/images/slides/eventos.jpg">
+                <!--<div class="camera_caption fadeFromBottom">
+                </div>-->
+            </div>
+            <div data-thumb="assets/camera/images/slides/thumbs/mall-rental.jpg" data-src="assets/camera/images/slides/mall-rental.jpg">
+                <!--<div class="camera_caption fadeFromBottom">
+                </div>-->
+            </div>
             <div data-thumb="assets/camera/images/slides/thumbs/gest-proy.jpg" data-src="assets/camera/images/slides/gest-proy.jpg">
                 <!--<div class="camera_caption fadeFromBottom">
                 </div>-->

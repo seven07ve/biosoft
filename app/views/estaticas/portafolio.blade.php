@@ -47,55 +47,6 @@
                                 echo View::make('parciales.modal')->with('lista', $lista);
                                 ?>
                             </li>
-                            <!--SIGETT-->
-                            <li style="display: block;" class="desarrollo search">
-                               <?php
-                                $titulo = 'SIGETT';
-                                $img = '<img src="assets/portfolio/imgs/sigtt.jpg" width="250" height="180" alt="">';
-                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
-                                    El sistema de gestión de transporte terrestre, permite mantener un registro actualizado de las operadoras de transporte de personas a nivel nacional,  a través del proceso de inscripción y solicitudes de renovación, certificación, fusión, reactivación y cambio de rutas, turnos, cupos, flotas, razón social y prestación de servicios. Así mismo, permite procesar el flujo de trabajo de cada solicitud y emitir los documentos pertinentes. Además cuentas con los componentes para consultas y estadísticas de la prestación de servicio de las operadoras de transporte. ';
-                                $data_target = 'sigett';
-                                $lista = array($titulo, $img, $cuerpo, $data_target);
-                                echo View::make('parciales.modal')->with('lista', $lista);
-                                ?>
-                            </li>
-                            <!--E-PRAXIS-->
-                            <li style="display: block;" class="capacitacion search">
-                               <?php
-                                $titulo = 'e-praxis';
-                                $img = '<img src="assets/portfolio/imgs/e-praxis.jpg" width="250" height="180" alt="">';
-                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
-                                    Portal instruccional desarrollado con el apoyo técnico de Biosoft C.A., el apoyo académico del Grupo de Investigación en Ingeniería de Datos y Conocimientos (GIDyC) de la Universidad de Los Andes, Mérida Venezuela y el financiamiento de el Fondo Nacional de Ciencia, Tecnologías e Innovación (FONACIT).<br><br>
-                                    E-praxis es un recurso tecnológico para la enseñanza y aprendizaje de la Ingeniería del Software. Está orientado a la capacitación de profesionales dedicados a la gestión y desarrollo de sistemas de software (aplicaciones). Apoya, también, la formación de estudiantes de pre y postgrado en las carreras de Informática, Sistemas y Computación.';
-                                $data_target = 'e-praxis';
-                                $lista = array($titulo, $img, $cuerpo, $data_target);
-                                echo View::make('parciales.modal')->with('lista', $lista);
-                                ?>
-                            </li>
-                            <!--SSEP-->
-                            <li style="display: block;" class="desarrollo search">
-                               <?php
-                                $titulo = 'SSEP ';
-                                $img = '<img src="assets/portfolio/imgs/ssep.jpg" width="250" height="180" alt="">';
-                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
-                                    Sistema de seguimiento y evaluación del programa de manejo sustentable de la cuenca del río Caroní (SSEP), permite apoyar los procesos de gestión de la ejecución de planes, programas y proyectos que se llevan a cabo en la Dirección de Cuencas Hidrográficas del MINEA, a través del manejo de los datos del proyecto y la generación de información oportuna y confiable que facilite la toma de decisiones que la gestión de un proyecto requiere. Además, provee los indicadores de gestión que la evaluación del desempeño o de un proyecto o programa requiere en cada una de sus etapas de ejecución.';
-                                $data_target = 'ssep';
-                                $lista = array($titulo, $img, $cuerpo, $data_target);
-                                echo View::make('parciales.modal')->with('lista', $lista);
-                                ?>
-                            </li>
-                            <!--SIMAPRO-->
-                            <li style="display: block;" class="desarrollo search">
-                               <?php
-                                $titulo = 'SIMAPRO ';
-                                $img = '<img src="assets/portfolio/imgs/simapro.jpg" width="250" height="180" alt="">';
-                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
-                                    Sistema de Manejo Productivo del Bosque Tropical (SIMAPRO) es una aplicación de software implementada en una plataforma web, bajo la plataforma Ruby on Rails, que permite gestionar la  información proveniente del  inventario forestal de pre y post aprovechamiento y el censo forestal del  bosque tropical.  Incluye el registro de las unidades de manejo y ordenación, mediciones de campo de inventario estático y censo, cálculo de las variables de la masa arbórea y estadísticas a nivel de parcelas de muestreo y del inventario.';
-                                $data_target = 'simapro';
-                                $lista = array($titulo, $img, $cuerpo, $data_target);
-                                echo View::make('parciales.modal')->with('lista', $lista);
-                                ?>
-                            </li>
                             <!--SIGEFOR-->
                             <li style="display: block;" class="desarrollo search">
                                <?php
@@ -120,20 +71,8 @@
                                 echo View::make('parciales.modal')->with('lista', $lista);
                                 ?>
                             </li>
-                            <!--CVG ALUCASA-->
-                            <li style="display: block;" class="desarrollo search">
-                               <?php
-                                $titulo = 'CVG ALUCASA ';
-                                $img = '<img src="assets/portfolio/imgs/alucasa.jpg" width="250" height="180" alt="">';
-                                $cuerpo = '<strong>Consultoría. Diseño de la Arquitectura Empresarial de CVG ALUCASA </strong><br><br>
-                                    La arquitectura empresarial describe y relaciona los procesos de negocio de CVG ALUCASA: producción de bobinas de aluminio, comercialización, compras, mantenimiento, administración y seguridad; sus sistemas de información, sus bases de datos y sus tecnologías de información y comunicación (TIC), tanto la situación actual como la futura. Así mismo se elaboró el Plan de Migración e Implementación de la Arquitectura Empresarial.';
-                                $data_target = 'alucasa';
-                                $lista = array($titulo, $img, $cuerpo, $data_target);
-                                echo View::make('parciales.modal')->with('lista', $lista);
-                                ?>
-                            </li>
                             <!--SINACIF-->
-                            <li style="display: block;" class="consultoria search">
+                            <li style="display: block;" class="desarrollo search">
                                <?php
                                 $titulo = 'SINACIF';
                                 $img = '<img src="assets/portfolio/imgs/sinacif.jpg" width="250" height="180" alt="">';
@@ -144,8 +83,44 @@
                                 echo View::make('parciales.modal')->with('lista', $lista);
                                 ?>
                             </li>
+                            <!--SIMAPRO-->
+                            <li style="display: block;" class="desarrollo search">
+                               <?php
+                                $titulo = 'SIMAPRO ';
+                                $img = '<img src="assets/portfolio/imgs/simapro.jpg" width="250" height="180" alt="">';
+                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
+                                    Sistema de Manejo Productivo del Bosque Tropical (SIMAPRO) es una aplicación de software implementada en una plataforma web, bajo la plataforma Ruby on Rails, que permite gestionar la  información proveniente del  inventario forestal de pre y post aprovechamiento y el censo forestal del  bosque tropical.  Incluye el registro de las unidades de manejo y ordenación, mediciones de campo de inventario estático y censo, cálculo de las variables de la masa arbórea y estadísticas a nivel de parcelas de muestreo y del inventario.';
+                                $data_target = 'simapro';
+                                $lista = array($titulo, $img, $cuerpo, $data_target);
+                                echo View::make('parciales.modal')->with('lista', $lista);
+                                ?>
+                            </li>
+                            <!--SSEP-->
+                            <li style="display: block;" class="desarrollo search">
+                               <?php
+                                $titulo = 'SSEP ';
+                                $img = '<img src="assets/portfolio/imgs/ssep.jpg" width="250" height="180" alt="">';
+                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
+                                    Sistema de seguimiento y evaluación del programa de manejo sustentable de la cuenca del río Caroní (SSEP), permite apoyar los procesos de gestión de la ejecución de planes, programas y proyectos que se llevan a cabo en la Dirección de Cuencas Hidrográficas del MINEA, a través del manejo de los datos del proyecto y la generación de información oportuna y confiable que facilite la toma de decisiones que la gestión de un proyecto requiere. Además, provee los indicadores de gestión que la evaluación del desempeño o de un proyecto o programa requiere en cada una de sus etapas de ejecución.';
+                                $data_target = 'ssep';
+                                $lista = array($titulo, $img, $cuerpo, $data_target);
+                                echo View::make('parciales.modal')->with('lista', $lista);
+                                ?>
+                            </li>
+                            <!--SIGETT-->
+                            <li style="display: block;" class="desarrollo search">
+                               <?php
+                                $titulo = 'SIGETT';
+                                $img = '<img src="assets/portfolio/imgs/sigtt.jpg" width="250" height="180" alt="">';
+                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
+                                    El sistema de gestión de transporte terrestre, permite mantener un registro actualizado de las operadoras de transporte de personas a nivel nacional,  a través del proceso de inscripción y solicitudes de renovación, certificación, fusión, reactivación y cambio de rutas, turnos, cupos, flotas, razón social y prestación de servicios. Así mismo, permite procesar el flujo de trabajo de cada solicitud y emitir los documentos pertinentes. Además cuentas con los componentes para consultas y estadísticas de la prestación de servicio de las operadoras de transporte. ';
+                                $data_target = 'sigett';
+                                $lista = array($titulo, $img, $cuerpo, $data_target);
+                                echo View::make('parciales.modal')->with('lista', $lista);
+                                ?>
+                            </li>
                             <!--SHIMED-->
-                            <li style="display: block;" class="consultoria search">
+                            <li style="display: block;" class="desarrollo search">
                                <?php
                                 $titulo = 'SHiMed';
                                 $img = '<img src="assets/portfolio/imgs/shimed.jpg" width="250" height="180" alt="">';
@@ -153,6 +128,31 @@
                                     El Sistema web de Gestión del Certificado Médico Integral y Certificado Psicológico
 para conducir, es parte de un sistema general para la gestión de historias médicas y tiene la finalidad de facilitar y automatizar la gestión de emisión electrónica del certificado médico integral y del certificado psicológico, ambos como requisitos exigidos a los conductores para conducir en el territorio venezolano, de acuerdo a la Ley de Tránsito Terrestre.';
                                 $data_target = 'shimed';
+                                $lista = array($titulo, $img, $cuerpo, $data_target);
+                                echo View::make('parciales.modal')->with('lista', $lista);
+                                ?>
+                            </li>
+                            <!--E-PRAXIS-->
+                            <li style="display: block;" class="capacitacion search">
+                               <?php
+                                $titulo = 'e-praxis';
+                                $img = '<img src="assets/portfolio/imgs/e-praxis.jpg" width="250" height="180" alt="">';
+                                $cuerpo = '<strong>Desarrollo de software web</strong><br><br>
+                                    Portal instruccional desarrollado con el apoyo técnico de Biosoft C.A., el apoyo académico del Grupo de Investigación en Ingeniería de Datos y Conocimientos (GIDyC) de la Universidad de Los Andes, Mérida Venezuela y el financiamiento de el Fondo Nacional de Ciencia, Tecnologías e Innovación (FONACIT).<br><br>
+                                    E-praxis es un recurso tecnológico para la enseñanza y aprendizaje de la Ingeniería del Software. Está orientado a la capacitación de profesionales dedicados a la gestión y desarrollo de sistemas de software (aplicaciones). Apoya, también, la formación de estudiantes de pre y postgrado en las carreras de Informática, Sistemas y Computación.';
+                                $data_target = 'e-praxis';
+                                $lista = array($titulo, $img, $cuerpo, $data_target);
+                                echo View::make('parciales.modal')->with('lista', $lista);
+                                ?>
+                            </li>
+                            <!--CVG ALUCASA-->
+                            <li style="display: block;" class="consultoria search">
+                               <?php
+                                $titulo = 'CVG ALUCASA ';
+                                $img = '<img src="assets/portfolio/imgs/alucasa.jpg" width="250" height="180" alt="">';
+                                $cuerpo = '<strong>Consultoría. Diseño de la Arquitectura Empresarial de CVG ALUCASA </strong><br><br>
+                                    La arquitectura empresarial describe y relaciona los procesos de negocio de CVG ALUCASA: producción de bobinas de aluminio, comercialización, compras, mantenimiento, administración y seguridad; sus sistemas de información, sus bases de datos y sus tecnologías de información y comunicación (TIC), tanto la situación actual como la futura. Así mismo se elaboró el Plan de Migración e Implementación de la Arquitectura Empresarial.';
+                                $data_target = 'alucasa';
                                 $lista = array($titulo, $img, $cuerpo, $data_target);
                                 echo View::make('parciales.modal')->with('lista', $lista);
                                 ?>
