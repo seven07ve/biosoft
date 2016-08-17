@@ -192,7 +192,7 @@
 				            DESARROLLO DE SOFTWARE
 			            </h3>
                             <p>
-                                Software como Servicio. 
+                                Aplicación web para prestar servicios en la nube relacionados con la gestión de eventos tales como congresos, talleres, simposios.
                             </p>
                         </div>
                     </div>

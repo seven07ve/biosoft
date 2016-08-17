@@ -46,7 +46,7 @@
 				loader: 'bar',
 				pagination: false,
                 loader: 'bar',
-                time: 2500,
+                time: 6000,
                 transPeriod: 750,
                 navigation: true,
                 playPause: true,

@@ -52,6 +52,11 @@ hr {
     border-bottom: 1px solid #d9d9d9;
 }
 
+.btn-gris{
+    color: #f47010;
+    background-color: #33332F;
+}
+
 .wrap-container{
     padding-top: 0px;
 }

@@ -1,0 +1,60 @@
+/* @override http://newmediacampaigns.com/css/compiled.css */
+
+/* Eric Meyer Reset */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+:focus { outline: 0; }
+
+
+.boundingBox a{ color: #000; }
+.boundingBox a:link, .boundingBox a:visited{ text-decoration: underline; }
+.boundingBox a:hover, .boundingBox a:active{ text-decoration: none; }
+.boundingBox a img{ border: none; }
+
+
+/* Layout */
+.boundingBox{ margin: 0 auto; width: 100%; }
+
+/* Content */
+
+#content{ padding: 20px 0; text-align: center; }
+
+/* Content - Portfolio Listing */
+
+ul#portfolio-filter{ margin: -20px 0; padding: 0; height: 64px; padding-left: 70px; line-height: 64px; background: transparent url(../images/icon-tag-green.png) left no-repeat; }
+ul#portfolio-filter li{ display: inline; }
+ul#portfolio-filter a{ margin-right: 0.5em; padding: 0.5em 1em; background: #FFF; color: #333333; font-weight: bold; text-decoration: none; }
+ul#portfolio-filter a:hover, ul#portfolio-filter a.current{ color: #f47010; }
+ul#portfolio-filter a.current{ background-color: #33332F; border-radius: 3px;}
+
+ul#portfolio-list{ margin: 36px 15px 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; flex-direction: initial; justify-content: space-around; }
+ul#portfolio-list li{ width: 30%; height: 250px; display: block; float: left; margin: 10px; overflow: hidden; }
+ul#portfolio-list li a{ display: block; width: 100%; height: 200px; overflow: hidden; border: 1px solid #CDCDCD; background: #eee; }
+ul#portfolio-list li a img{ width: 100%; height: 180px; }
+ul#portfolio-list li p{ font-size: 1rem; font-weight: bold; line-height: 15px; color: #333333; margin: 5px 0; }
+
+.modal-body img{
+    float: right; margin: 15px; padding: 5px; border: 1px solid #d9d9d9;
+}
+
+.modal-dialog {
+    width: 600px;
+    margin: 100px auto;
+}
