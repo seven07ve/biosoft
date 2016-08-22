@@ -69,13 +69,32 @@
             <h2 class="titulo-seccion">Por qué nosotros</h2>
             <br><br>
             <div class="row text-center">
+               <div class="col-md-4">
+                <div class="porque">
+                    {{ HTML::image('assets/images/inicio/desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                    <hr>
+                    <a href="portafolio#desarrollo">
+			            <h3 class="capacitacion">DESARROLLO DE SOFTWARE</h3>
+                       </a>
+                    <ul class="check-list">
+                        <li>Tenemos experiencia de 20 años en desarrollo de software</li>
+                        <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
+                        <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
+                        <li>Desarrollamos software guiado por pruebas</li>
+                        <li>Programamos en Ruby on Rails</li>
+                    </ul>
+                    <hr>
+                </div>
+                </div>
                 <div class="col-md-4">
                 <div class="porque">
                     {{ HTML::image('assets/images/inicio/consultoria.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                     <hr>
-                    <h3 class="capacitacion">
-                        CONSULTORÍA
-                    </h3>
+			        <a href="consultoria">
+			                <h3 class="capacitacion">
+				            CONSULTORÍA
+			            </h3>
+                    </a>
                    <ul class="check-list">
                         <li>Alineamos las TIC al negocio</li>
                         <li>Tenemos alta experiencia profesional y estudios de 4to y 5to nivel</li>
@@ -89,31 +108,16 @@
                 <div class="porque">
                     {{ HTML::image('assets/images/inicio/capacitacion.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                     <hr>
-                    <h3 class="capacitacion">
-                        CAPACITACIÓN
-                    </h3>
+			        <a href="capacitacion">
+			                <h3 class="capacitacion">
+				            CAPACITACIÓN
+			            </h3>
+                    </a>
                     <ul class="check-list">
                         <li>Contamos con profesores de 4to y 5to nivel académico</li>
                         <li>Tenemos experiencia de 20 años en formación de profesionales en Ingeniería de Software</li>
                         <li>Orientamos la capacitación a la práctica profesional</li>
                         <li>Capacitamos para que seas competitivo en tecnologías de información</li>
-                    </ul>
-                    <hr>
-                </div>
-                </div>
-                <div class="col-md-4">
-                <div class="porque">
-                    {{ HTML::image('assets/images/inicio/desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
-                    <hr>
-                    <h3 class="capacitacion">
-                        DESARROLLO DE SOFTWARE
-                    </h3>
-                    <ul class="check-list">
-                        <li>Tenemos experiencia de 20 años en desarrollo de software</li>
-                        <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
-                        <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
-                        <li>Desarrollamos software guiado por pruebas</li>
-                        <li>Programamos en Ruby on Rails</li>
                     </ul>
                     <hr>
                 </div>

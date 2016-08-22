@@ -81,9 +81,9 @@
 			        <div class="porque">
 			        	{{ HTML::image('assets/images/inicio/desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
-			            <h3 class="capacitacion">
-				            DESARROLLO DE SOFTWARE
-			            </h3>
+			            <a href="portafolio#desarrollo">
+			            <h3 class="capacitacion">DESARROLLO DE SOFTWARE</h3>
+                       </a>
                         <ul class="check-list">
                             <li>Tenemos experiencia de 20 años en desarrollo de software</li>
                             <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
@@ -98,9 +98,11 @@
 			        <div class="porque">
 			        	{{ HTML::image('assets/images/inicio/consultoria.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
-			            <h3 class="capacitacion">
+			            <a href="consultoria">
+			                <h3 class="capacitacion">
 				            CONSULTORÍA
 			            </h3>
+                        </a>
                        <ul class="check-list">
                             <li>Alineamos las TIC al negocio</li>
                             <li>Tenemos alta experiencia profesional y estudios de 4to y 5to nivel</li>
@@ -114,9 +116,11 @@
 			        <div class="porque">
 			        	{{ HTML::image('assets/images/inicio/capacitacion.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
-			            <h3 class="capacitacion">
+			            <a href="capacitacion">
+			                <h3 class="capacitacion">
 				            CAPACITACIÓN
 			            </h3>
+                        </a>
                         <ul class="check-list">
                             <li>Contamos con profesores de 4to y 5to nivel académico</li>
                             <li>Tenemos experiencia de 20 años en formación de profesionales en Ingeniería de Software</li>
@@ -178,9 +182,9 @@
 			            <div class="trabajos">
 			        	{{ HTML::image('assets/images/inicio/trabajos-capacitacion.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
-			            <h3 class="titulo-naranja">
-				            CAPACITACIÓN
-			            </h3>
+			            <a href="portafolio#capacitacion">
+			                <h3 class="titulo-naranja">CAPACITACIÓN</h3>
+                        </a>
                         <p>Portal instruccional desarrollado con el apoyo técnico de Biosoft C.A., el apoyo académico del Grupo GIDyC de la ULA, y el FONACIT.</p>
                         </div>
                     </div>
@@ -188,9 +192,9 @@
 			            <div class="trabajos">
 			        	{{ HTML::image('assets/images/inicio/trabajos-desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
-			            <h3 class="titulo-naranja">
-				            DESARROLLO DE SOFTWARE
-			            </h3>
+			            <a href="portafolio#desarrollo">
+			                <h3 class="titulo-naranja">DESARROLLO DE SOFTWARE</h3>
+                        </a>
                             <p>
                                 Aplicación web para prestar servicios en la nube relacionados con la gestión de eventos tales como congresos, talleres, simposios.
                             </p>
@@ -200,9 +204,9 @@
 			            <div class="trabajos">
 			        	{{ HTML::image('assets/images/inicio/trabajos-consultoria.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
                         <hr>
-			            <h3 class="titulo-naranja">
-				            CONSULTORÍA
-			            </h3>
+			            <a href="portafolio#consultoria">
+			                <h3 class="titulo-naranja">CONSULTORÍA</h3>
+                        </a>
                             <p>Adaptación del marco de trabajo TOGAF® 9.5 y del método ADM a los requisitos del banco. <br>
                             Elaboración de Modelo de Gestión de Procesos de Arquitectura Empresarial del BOD.</p>
                         </div>
